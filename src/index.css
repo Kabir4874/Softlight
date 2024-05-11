@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&family=Syne:wght@400..800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hr-bg {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0.45%,
+    #e6e6e6 49.56%,
+    rgba(230, 230, 230, 0) 99.49%
+  );
+}
+.highlight-text {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 24.11%,
+    #fff 48.59%,
+    rgba(255, 255, 255, 0) 72.82%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.grid-bg {
+  background: url("./assets/grid.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@layer utilities {
+  .text-stroke {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #c1c1c1;
+    color: transparent;
+  }
+}
+.team-bg {
+  background: url("./assets/StarPattern.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.team-text {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.04) 4.69%,
+    #f4f4f4 49.74%,
+    rgba(255, 255, 255, 0.08) 94.48%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.footer-bg {
+  background: url("./assets/FooterPattern.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.project-bg {
+  background: url("./assets/grid.svg");
+  background-repeat: space;
+  background-position: center;
+}
+.project-active {
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 0) -5.45%,
+    #fff 49.93%,
+    rgba(255, 255, 255, 0) 107.79%
+  );
+}
+.single-project-bg {
+  background: url("./assets/singleProjectPattern.svg");
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position-x: center;
+  background-position-y: 25%;
+}
+.spinner {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 9px solid;
+  border-color: #dbdcef;
+  border-right-color: #474bff;
+  animation: spinner-d3wgkg 1s infinite linear;
+}
+
+@keyframes spinner-d3wgkg {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+.single-blog-quote {
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 0) -12.05%,
+    rgba(3, 2, 17, 0.39) -4.4%,
+    rgba(3, 2, 17, 0.55) 2.28%,
+    rgba(3, 2, 17, 0.65) 10.07%,
+    rgba(3, 2, 17, 0.71) 18.42%,
+    rgba(3, 2, 17, 0.81) 25.93%,
+    rgba(3, 2, 17, 0.95) 38.18%,
+    #000 53.34%,
+    rgba(3, 2, 17, 0.99) 65.31%,
+    rgba(3, 2, 17, 0.85) 73.8%,
+    rgba(3, 2, 17, 0.78) 81.87%,
+    rgba(3, 2, 17, 0.6) 90.78%,
+    rgba(3, 2, 17, 0.41) 98.85%,
+    rgba(3, 2, 17, 0.18) 104.27%,
+    rgba(255, 255, 255, 0) 110.4%
+  );
+}
+.svg {
+  filter: invert(100%);
+}
+.pricing-line {
+  background: linear-gradient(
+    rgba(255, 255, 255, 0) 0.45%,
+    #e6e6e6 49.56%,
+    rgba(230, 230, 230, 0) 99.49%
+  );
+}
+.pricing-bg{
+  border-radius: 14.78325rem;
+background: linear-gradient(270deg, rgba(255, 255, 255, 0.00) -5.45%, #FFF 49.93%, rgba(255, 255, 255, 0.00) 107.79%);
+}
+.faq-linear{
+background: linear-gradient(270deg, rgba(255, 255, 255, 0.00) -5.45%, #FFF 49.93%, rgba(255, 255, 255, 0.00) 107.79%);
+}
