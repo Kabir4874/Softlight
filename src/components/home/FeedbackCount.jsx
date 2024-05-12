@@ -37,7 +37,7 @@ const FeedbackCount = ({ border }) => {
         <div className=" text-center">
           <div className="flex items-center justify-center">
             <h4 className="text-stroke text-silver text-[5rem] font-bold ">
-            {visible && <CountUp start={0} end={110} duration={3} />}
+              {visible && <CountUp start={0} end={110} duration={3} />}
             </h4>
           </div>
           <p className=" text-jaguar text-[1.5625rem] font-medium -mt-[10px]">
@@ -47,7 +47,7 @@ const FeedbackCount = ({ border }) => {
         <div className=" text-center">
           <div className="flex items-center justify-center gap-[0.43rem]">
             <h4 className="text-stroke text-silver  text-[5rem] font-bold ">
-            {visible && <CountUp start={0} end={99} duration={3} />}
+              {visible && <CountUp start={0} end={99} duration={3} />}
             </h4>
             <span className=" text-codGray  text-[2.5rem] font-bold">%</span>
           </div>
@@ -58,7 +58,7 @@ const FeedbackCount = ({ border }) => {
         <div className=" text-center">
           <div className="flex items-center justify-center gap-[0.35rem]">
             <h4 className="text-stroke text-silver  text-[5rem] font-bold ">
-            {visible && <CountUp start={0} end={100} duration={3} />}
+              {visible && <CountUp start={0} end={100} duration={3} />}
             </h4>
             <span className="-mt-[10px] text-codGray  text-[2.5rem] font-bold">
               +
