@@ -139,32 +139,15 @@
     rgba(0, 0, 0, 1) 82.82%
   );
 }
-.highlight-text {
-  background-size: 100%;
-  background-position: center;
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  animation: animate 20s linear infinite;
-}
-@keyframes animate {
-  0% {
-    background-position: 0%;
-  }
-  100% {
-    background-position: 200%;
-  }
-}
-
 .words {
   position: relative;
   animation: move-words 20s linear infinite;
 }
 @keyframes move-words {
   0% {
-    left: 100%;
+    left: 130%;
   }
   100% {
-    left: -100%;
+    left: -130%;
   }
 }
