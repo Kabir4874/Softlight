@@ -139,9 +139,20 @@
     #fff 48.59%,
     rgba(255, 255, 255, 0) 72.82%
   );
+  background-size: 200%;
+  background-position: center;
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  animation: animate 20s linear infinite;
+}
+@keyframes animate {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 200%;
+  }
 }
 
 .words {
