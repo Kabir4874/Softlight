@@ -16,9 +16,7 @@ const FeedbackCount = ({ border }) => {
       } px-[3.45rem]`}
     >
       <VisibilitySensor onChange={onVisibilityChange}>
-        <div style={{ height: "200px" }}>
-          Scroll down to see the CountUp animation
-        </div>
+        <div style={{ height: "10px" }}></div>
       </VisibilitySensor>
       <div className="flex items-center justify-between">
         <div className=" text-center">
