@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../assets/logo Pixelplow-02 1.png";
 import insta from "../assets/insta.svg";
 import fb from "../assets/fb.svg";
@@ -16,9 +16,11 @@ const Footer = () => {
             Let’s start together.
           </p>
           <div className=" w-fit mx-auto">
-            <button className=" capitalize py-[0.625rem] px-3 flex items-center justify-center gap-[0.625rem] rounded-[2.5rem] bg-tarawera text-white font-nunito text-[0.875rem] font-bold">
-              say hello <img src={right} alt="" />
-            </button>
+            <Link to={"/contact"}>
+              <button className=" capitalize py-[0.625rem] px-3 flex items-center justify-center gap-[0.625rem] rounded-[2.5rem] bg-tarawera text-white font-nunito text-[0.875rem] font-bold">
+                say hello <img src={right} alt="" />
+              </button>
+            </Link>
           </div>
         </div>
         <div className=" border-y pt-[1.25rem] pb-12 border-alto2 mt-[2.88rem] bg-white flex items-start">
