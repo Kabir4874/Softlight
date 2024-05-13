@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import blog from "../../assets/blog.png";
 import blog3Photo from "../../assets/blog3Photo.png";
 import blog4Photo from "../../assets/blog4Photo.png";
-import blogVector from "../../assets/blogVector.svg";
 import rightArrow from "../../assets/rightArrow.svg";
 const Blogs = () => {
   return (
