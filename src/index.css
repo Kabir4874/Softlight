@@ -16,7 +16,6 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-
 @layer utilities {
   .text-stroke {
     -webkit-text-stroke-width: 2px;
@@ -47,7 +46,6 @@
   background-position: center;
   background-repeat: no-repeat;
 }
-
 .project-bg {
   background: url("./assets/grid.svg");
   background-repeat: space;
@@ -77,13 +75,11 @@
   border-right-color: #474bff;
   animation: spinner-d3wgkg 1s infinite linear;
 }
-
 @keyframes spinner-d3wgkg {
   to {
     transform: rotate(1turn);
   }
 }
-
 .single-blog-quote {
   background: linear-gradient(
     270deg,
