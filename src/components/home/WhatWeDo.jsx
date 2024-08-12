@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import icon from "../../assets/Icon.svg";
 import vector from "../../assets/Vector.svg";
 
 const WhatWeDo = () => {

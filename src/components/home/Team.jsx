@@ -2,7 +2,6 @@ import Team1Photo from "../../assets/Team1Photo.png";
 import Team2Photo from "../../assets/Team2Photo.png";
 import Team3Photo from "../../assets/Team3Photo.png";
 import Team4Photo from "../../assets/Team4Photo.png";
-import Pattern from "../../assets/Pattern.svg";
 import { Link } from "react-router-dom";
 
 const Team = () => {

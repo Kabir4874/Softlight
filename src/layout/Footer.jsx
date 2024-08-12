@@ -4,7 +4,6 @@ import insta from "../assets/insta.svg";
 import fb from "../assets/fb.svg";
 import twitter from "../assets/twitter.svg";
 import linkedin from "../assets/linkedin.svg";
-import right from "../assets/Pattern.svg";
 
 const Footer = () => {
   return (

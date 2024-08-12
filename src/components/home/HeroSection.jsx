@@ -1,6 +1,5 @@
 import headerPhoto from "../../assets/Photo.png";
 import star from "../../assets/Star 1.svg";
-import right from "../../assets/Pattern.svg";
 import { Link } from "react-router-dom";
 
 const HeroSection = () => {
