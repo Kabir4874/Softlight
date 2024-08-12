@@ -14,7 +14,7 @@ const Header = () => {
   });
   return (
     <nav
-      className={`w-[75rem] mx-auto flex items-center justify-between mt-[3.11rem]  border-b border-borderColor sticky top-0 z-[1000] ${nav} ${
+      className={`w-[75rem] opacity-95 mx-auto flex items-center justify-between mt-[3.11rem]  border-b border-borderColor sticky top-0 z-[1000] ${nav} ${
         !nav && "pb-[2.81rem]"
       }`}
     >
