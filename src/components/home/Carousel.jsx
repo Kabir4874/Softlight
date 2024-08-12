@@ -34,7 +34,7 @@ const Carousel = () => {
             disableOnInteraction: false,
             waitForTransition: true,
           }}
-          speed={8000}
+          speed={2000}
           grabCursor={true}
           modules={[FreeMode, Autoplay]}
           className="mySwiper"

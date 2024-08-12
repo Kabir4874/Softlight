@@ -73,9 +73,9 @@ const Blogs = () => {
         </Link>
       </div>
       <Link to={"/news"}>
-        <button className="flex items-center gap-[0.38rem] text-jaguar text-lg font-bold mx-auto mt-[5.62rem]">
+        <button className="flex items-center gap-[0.38rem] text-jaguar text-lg font-bold mx-auto mt-[5.62rem] group">
           See All News
-          <span className="mt-[2px]">
+          <span className="mt-[2px] group-hover:translate-x-2 transition-all duration-300">
             <img src={rightArrow} alt="" />
           </span>
         </button>
