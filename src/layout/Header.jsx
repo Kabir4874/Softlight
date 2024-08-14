@@ -28,7 +28,7 @@ const Header = () => {
         <li>
           <NavLink
             to="/"
-            className="font-nunito text-lg font-medium text-tarawera"
+            className="font-nunito text-lg font-medium text-tarawera hover:text-black relative w-fit block after:block after:content-[''] after:absolute after:h-[1px] after:bg-tarawera after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
           >
             Home
           </NavLink>
@@ -36,7 +36,7 @@ const Header = () => {
         <li>
           <NavLink
             to={"/about"}
-            className="font-nunito text-lg font-medium text-tarawera"
+            className="font-nunito text-lg font-medium text-tarawera hover:text-black relative w-fit block after:block after:content-[''] after:absolute after:h-[1px] after:bg-tarawera after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
           >
             About
           </NavLink>
@@ -44,7 +44,7 @@ const Header = () => {
         <li>
           <NavLink
             to={"/work"}
-            className="font-nunito text-lg font-medium text-tarawera"
+            className="font-nunito text-lg font-medium text-tarawera hover:text-black relative w-fit block after:block after:content-[''] after:absolute after:h-[1px] after:bg-tarawera after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
           >
             Portfolio
           </NavLink>
@@ -60,7 +60,7 @@ const Header = () => {
         <li>
           <NavLink
             to={"/contact"}
-            className="font-nunito text-lg font-medium text-tarawera"
+            className="font-nunito text-lg font-medium text-tarawera hover:text-black relative w-fit block after:block after:content-[''] after:absolute after:h-[1px] after:bg-tarawera after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
           >
             Contact
           </NavLink>
