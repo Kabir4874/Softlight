@@ -1,6 +1,5 @@
 import logo from "../assets/logo.svg";
 import Hover from "../assets/Hover.svg";
-import MenuIcon from "../assets/Menu Icon.svg";
 import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
 const Header = () => {
@@ -65,8 +64,44 @@ const Header = () => {
             Contact
           </NavLink>
         </li>
-        <li className=" cursor-pointer">
-          <img src={MenuIcon} alt="" />
+        <li className=" cursor-pointer group">
+          <svg
+            width="59"
+            height="58"
+            viewBox="0 0 59 58"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="29.4001"
+              cy="29.0002"
+              r="28.6081"
+              stroke="#D5D5D5"
+              className=" group-hover:stroke-tarawera transition-all duration-300"
+              stroke-width="0.5"
+            />
+            <rect
+              x="16.9033"
+              y="28.0249"
+              width="25"
+              height="2"
+              fill="#08364A"
+            />
+            <rect
+              x="29.46"
+              y="21.9492"
+              width="12.4168"
+              height="2"
+              fill="#08364A"
+            />
+            <rect
+              x="16.8965"
+              y="34.0513"
+              width="12.4168"
+              height="2"
+              fill="#08364A"
+            />
+          </svg>
         </li>
       </ul>
     </nav>
