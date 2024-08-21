@@ -1,10 +1,6 @@
 import Stroke from "../../assets/Stroke.svg";
-import test1 from "../../assets/test1.png";
-import test2 from "../../assets/test2.png";
-import test3 from "../../assets/test3.png";
 import quote from "../../assets/quote.svg";
 import { useState } from "react";
-import { testimonialData } from "../../data/homeData";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { get_reviews } from "../../../store/reducers/homeReducer";
