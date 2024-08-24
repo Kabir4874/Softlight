@@ -5,7 +5,7 @@ export const get_projects = createAsyncThunk(
   "home/get_projects",
   async (_, { fulfillWithValue, rejectWithValue }) => {
     try {
-      const { data } = await api.get("/projects-get", {
+      const { data } = await api.get("/client/projects-get", {
         withCredentials: true,
       });
       return fulfillWithValue(data);
@@ -14,11 +14,12 @@ export const get_projects = createAsyncThunk(
     }
   }
 );
+
 export const get_reviews = createAsyncThunk(
   "home/get_reviews",
   async (_, { fulfillWithValue, rejectWithValue }) => {
     try {
-      const { data } = await api.get("/reviews-get", {
+      const { data } = await api.get("/client/reviews-get", {
         withCredentials: true,
       });
       return fulfillWithValue(data);

@@ -27,7 +27,7 @@ const WhatWeDo = () => {
           </p>
           <div>
             <Link to={"/work"}>
-              <button className=" capitalize py-[0.625rem] px-3 flex items-center justify-center gap-[0.625rem] rounded-[2.5rem] bg-tarawera text-white font-nunito text-[0.875rem] font-bold group transition-all duration-300 hover:bg-white hover:text-tarawera border border-tarawera">
+              <button className=" capitalize py-[0.625rem] px-6 flex items-center justify-center gap-[0.625rem] rounded-[2.5rem] bg-tarawera text-white font-nunito text-[0.875rem] font-bold group transition-all duration-300 hover:bg-white hover:text-tarawera border border-tarawera">
                 See Our Process{" "}
                 <svg
                   width="32"

@@ -5,9 +5,11 @@ const Revenue = () => {
   return (
     <div className="w-[75rem] mx-auto pt-[8.63rem]">
       <h2 className=" text-white text-center font-syne text-[2.5rem] font-bold w-[46.875rem] mx-auto mb-[5.56rem]">
-        Unlock Revenue Growth for{" "}
-        <span className=" bg-white text-jaguar px-2">Your</span>{" "}
-        <span className=" bg-white text-jaguar px-2">Business</span>
+        Unlock Revenue Growth <br />
+        For{" "}
+        <span className="bg-white text-jaguar px-2 w-fit mx-auto inline-block">
+          Your Business
+        </span>
       </h2>
       <div className="grid grid-cols-3 items-center gap-7">
         <div className=" group">

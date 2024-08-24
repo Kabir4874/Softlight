@@ -9,7 +9,7 @@ const Blogs = () => {
       <div>
         <h2 className=" text-jaguar font-syne text-[2.5rem] font-bold">
           Latest News &{" "}
-          <span className=" bg-jaguar text-white px-[0.38rem]">Blogs</span>
+          <span className=" bg-tarawera text-white px-[0.38rem]">Blogs</span>
         </h2>
       </div>
       <div className="w-[49.625rem] mx-auto  flex flex-col gap-[4.0625rem] mt-[8.51rem]">
