@@ -40,40 +40,40 @@ const Carousel = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <img src={Photo1} alt="" />
+            <img src={Photo1} alt="" className="h-[550px]" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Photo2} alt="" />
+            <img src={Photo2} alt="" className="h-[550px]" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Photo3} alt="" />
+            <img src={Photo3} alt="" className="h-[550px]" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Photo4} alt="" />
+            <img src={Photo4} alt="" className="h-[550px]" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Photo5} alt="" />
+            <img src={Photo5} alt="" className="h-[550px]" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Photo6} alt="" />
+            <img src={Photo6} alt="" className="h-[550px]" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Photo1} alt="" />
+            <img src={Photo1} alt="" className="h-[550px]" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Photo2} alt="" />
+            <img src={Photo2} alt="" className="h-[550px]" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Photo3} alt="" />
+            <img src={Photo3} alt="" className="h-[550px]" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Photo4} alt="" />
+            <img src={Photo4} alt="" className="h-[550px]" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Photo5} alt="" />
+            <img src={Photo5} alt="" className="h-[550px]" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Photo6} alt="" />
+            <img src={Photo6} alt="" className="h-[550px]" />
           </SwiperSlide>
         </Swiper>
       </div>
