@@ -3,7 +3,7 @@ import quote from "../../assets/quote.svg";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
-import { get_reviews } from "../../../store/reducers/homeReducer";
+import { get_reviews } from '../../store/reducers/homeReducer'
 const Testimonial = () => {
   const dispatch = useDispatch();
   const [toggleState, setToggleState] = useState(2);

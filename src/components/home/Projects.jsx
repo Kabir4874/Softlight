@@ -1,12 +1,11 @@
-import seeall from "../../assets/seeall.svg";
 import ViewProjectButton from "../../assets/ViewProjectButton.svg";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
-import { get_projects } from "../../../store/reducers/homeReducer";
+import { get_projects } from "../../store/reducers/projectReducer";
 const Projects = () => {
   const dispatch = useDispatch();
-  const { projects } = useSelector((state) => state.home);
+  const { projects } = useSelector((state) => state.project);
   useEffect(() => {
     dispatch(get_projects());
   }, []);
